@@ -14,6 +14,10 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatIconModule} from '@angular/material/icon';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatSelectModule} from '@angular/material/select';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { MatDialogModule } from '@angular/material/dialog';
 
 
 const Materials = [
@@ -31,7 +35,11 @@ const Materials = [
   MatCheckboxModule,
   MatRadioModule,
   MatSidenavModule,
-  MatIconModule
+  MatIconModule,
+  MatTabsModule,
+  MatSelectModule,
+  MatProgressSpinnerModule,
+  MatDialogModule
 ]
 
 

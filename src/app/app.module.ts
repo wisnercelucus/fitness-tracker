@@ -14,6 +14,8 @@ import { NewTrainingComponent } from './training/new-training/new-training.compo
 import { PastTrainingComponent } from './training/past-training/past-training.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { HeaderComponent } from './navigation/header/header.component';
+import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
+import { StopTrainingComponent } from './training/current-training/stop-training.compent';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { HeaderComponent } from './navigation/header/header.component';
     NewTrainingComponent,
     PastTrainingComponent,
     WelcomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    SidenavListComponent,
+    StopTrainingComponent
   ],
   imports: [
     BrowserModule,
@@ -35,6 +39,7 @@ import { HeaderComponent } from './navigation/header/header.component';
     FormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [StopTrainingComponent]
 })
 export class AppModule { }
